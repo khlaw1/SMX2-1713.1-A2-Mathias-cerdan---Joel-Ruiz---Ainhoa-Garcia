@@ -2,7 +2,6 @@ function listRandom() {
     buttonOpacity();
     galleryRandom();
 }
-
 function buttonOpacity() {
     let elemento = document.getElementById("random")
     if (elemento.style.opacity == 0.5) {
